@@ -1,0 +1,16 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8001/v1/loyalties
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8001/v1/loyalties/1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8001/v1/loyalties/3
+Accept: application/json
+
+###
